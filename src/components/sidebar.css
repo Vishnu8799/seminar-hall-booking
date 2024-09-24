@@ -1,0 +1,60 @@
+/* App Layout */
+.app-container {
+    display: flex;
+  }
+  
+  .dashboard-layout {
+    display: flex;
+    width: 100%;
+  }
+  
+  .content {
+    margin-left: 250px; /* Sidebar width */
+    padding: 20px;
+    flex: 1;
+    background-color: #f0f0f0;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  

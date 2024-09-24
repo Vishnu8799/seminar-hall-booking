@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+/* Main Layout */
+.app-container {
+  display: flex;
+  
+}
+
+.dashboard-layout {
+  display: flex;
+  width: 100%;
+}
+
+.content {
+  margin-left: 200px; /* Sidebar width */
+  padding: 20px;
+  flex: 1;
+  background-color: #f0f0f0;
+}
+
